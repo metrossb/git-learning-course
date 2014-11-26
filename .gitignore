@@ -1,0 +1,5 @@
+# Build files/folder to ignore
+*.pyc
+
+# Editor files to ignore
+*.*~
