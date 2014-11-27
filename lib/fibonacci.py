@@ -1,14 +1,15 @@
 class Fibonacci:
 
     def getTerms(self, terms = 10):
-        f1 = 1
-        f2 = 1
         if terms < 1:
             return []
         elif terms == 1:
-            return [f1]
+            return [1]
         elif terms == 2:
-            return [f1, f2]
+            return [1, 1]
         else:
             # Implement an algorithm
-            return []
+            vals = [1, 1]
+            for i in range(1,terms-1):
+                vals.append(vals[i] + vals[i-1])
+            return vals
