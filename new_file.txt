@@ -1,1 +1,1 @@
-"I am an awesome new file" 
+"I am the better awesome file on master."
